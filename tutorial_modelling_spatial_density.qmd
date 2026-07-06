@@ -26,4 +26,42 @@ Speaker: Prof. Katarzyna Kopczewska (University of Warsaw)
 Koszykowa 75, Faculty of Mathematics and Information Sciences,
 Main Entrance ("Szatnia")
 
+# Notes
 
+data: <https://github.com/kkopczewska/density_book>
+
+Interesting for B-Cubed: https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem
+
+Her book has table of all methods: which question can they answer etc. comparison.
+
+## Quick density clustering
+
+Quick way of density clustering based on 2 simple measures.
+Split in high, medium and low categories.
+
+<https://rpubs.com/Kathy_Kopczewska/1249670>
+
+## Entropy-Tesselation-Agglomeration
+
+Measure of spatial agglomeration based on entropy for Voronoi polygons.
+
+## Spatial Benford distribution
+
+Benford law = Weird law
+
+--> kan dit gebruikt worden voor Patrijzen tellingen?
+
+<https://doi.org/10.1371/journal.pone.0276450>
+
+## Kernel density estimation
+
+Interesting for comparing maps
+
+## Rose diagram
+
+Directional density.
+
+# Geographical weighted regression
+
+Different relationships depending on space.
+Interesting.
