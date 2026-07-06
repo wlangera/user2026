@@ -1,0 +1,29 @@
+---
+title: "Modelling spatial density of geo-located point data"
+author: "Ward Langeraert"
+date: today
+
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    toc-location: right
+    code-fold: true
+    self-contained: true
+
+editor_options: 
+  chunk_output_type: console
+---
+
+# Context
+
+This workshop introduces participants to the analytics of spatial geo-located point data. It starts with data processing (reading to sf class, visualisation in ggplot, plot and interactive mapview, CRS re-projecting); then it continues with detection of density clusters (QDC, DBSCAN), degree of agglomeration (using entropy-based ETA and SPAG) and comparison of density patterns by further processing KDE (Kernel Density Estimation) results (k-means and hierarchical clustering, Rand Index for similarity of clusters). It presents how to determine local neighbourhood structure across space using k-nearest neighbours, radial catchment areas, rasters, and spatial weights matrices. All those methods are applied to business locations and population settlement – the interpretation focuses on understanding differences in the spatial distributions of socio-economic phenomena within the region. Participants will learn practical techniques for handling real-world spatial data with special focus on reproducibility on the own dataset. The tutorial is based on the content of the book by K.Kopczewska (2025) titled “Modelling Spatial Density: Data, Methods, and R Applications in Statistics, Econometrics, and Machine Learning” (Oxford University Press), while online resources are available at <https://rpubs.com/Kathy_Kopczewska/1244082>. It will use the spatialWarsaw R package (available at [GitHub](https://github.com/poktam/spatialWarsaw)).
+
+Speaker: Prof. Katarzyna Kopczewska (University of Warsaw)
+
+8:30 - 12:00: Tutorials (Pre-conference Workshops)
+
+Koszykowa 75, Faculty of Mathematics and Information Sciences,
+Main Entrance ("Szatnia")
+
+
