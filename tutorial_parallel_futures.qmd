@@ -1,0 +1,38 @@
+---
+title: "Introduction to Parallel Processing in R using Futureverse"
+author: "Ward Langeraert"
+date: today
+
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    toc-location: right
+    code-fold: true
+    self-contained: true
+
+editor_options: 
+  chunk_output_type: console
+---
+
+# Context
+This tutorial provides an introduction to the Futureverse (<https://www.futureverse.org>), a cohesive package ecosystem designed to facilitate and simplify parallel and distributed computing in R.
+
+While accessible to beginners and those with some R experience, this workshop also provides valuable insights for more advanced users. We will focus on the new futurize() function, which dramatically simplifies parallelization by automatically converting common R code directly into concurrent equivalents, e.g. ys <- map(xs, fcn) |> futurize(). You will learn how to scale up your existing workflows, including those using base R and purrr. We will also cover how domain-specific tasks in areas like statistics and machine learning provided by packages such as boot, caret, lme4, glmnet, and mgcv can be parallelized equally easily. The futurize() function allows us to preserve the core logic and syntax and minimizes the need to learn complex parallel APIs.
+
+To deepen our understanding, we will explore the concept of futures, a mechanism underlying most parallel processing. By gaining an intuition for what a future is, you will develop a better understanding of how parallel processing works and see that it is actually quite simple. This deeper knowledge also applies when working outside of the Futureverse, such as with the built-in parallel package or third-party tools like foreach and mirai.
+
+Time permitting, the tutorial concludes with an example of parallelizing via a peer-to-peer (P2P) cluster shared among participants.
+
+This year's focus on the futurize package differentiates this session from past Futureverse tutorials by removing the need to program directly toward specialized packages like future.apply, furrr, and doFuture, which further lowers the mental threshold for starting with parallel processing.
+
+Speaker: Henrik Bengtsson (University of California San Francisco (UCSF))
+
+13:00 - 16:30: Tutorials (Pre-conference Workshops)
+
+Koszykowa 75, Faculty of Mathematics and Information Sciences,
+Main Entrance ("Szatnia")
+
+# Notes
+
+
