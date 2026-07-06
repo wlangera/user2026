@@ -9,3 +9,7 @@ data: <https://github.com/kkopczewska/density_book>
 functions: <https://github.com/poktam/spatialWarsaw>
 
 **06-07-2026: Introduction to Parallel Processing in R using Futureverse"**
+
+<https://henrikbengtsson.github.io/futureverse-tutorial-user2026/#/>
+
+
