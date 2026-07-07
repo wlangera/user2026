@@ -1,0 +1,29 @@
+---
+title: "Notes conference"
+author: "Ward Langeraert"
+date: today
+
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    toc-location: right
+    code-fold: true
+    self-contained: true
+
+editor_options: 
+  chunk_output_type: console
+---
+
+# DAY 1: 07-07-2026
+## R we there yet? Surviving the transition to package maturity?
+
+
+
+## Maintaining a package on CRAN
+
+## samplyr: A tidy grammar for survey sampling design in R
+
+## Interactive graphics for analyses, documents and dashboards
+
+
