@@ -18,12 +18,65 @@ editor_options:
 # DAY 1: 07-07-2026
 ## R we there yet? Surviving the transition to package maturity?
 
-
+kapa.ai interesting integration with sites based on documentation and github code
 
 ## Maintaining a package on CRAN
 
 ## samplyr: A tidy grammar for survey sampling design in R
 
+useful package, easy to read
+
 ## Interactive graphics for analyses, documents and dashboards
 
+## Causal inference with marginaleffects
 
+## Fuzz testing R-based research software for robustness
+
+Easy way of testing inputs in functions to see how robust package functions are
+
+## Beyond code coverage: mutation testing in R with mutator
+
+Code coverage does not mean the function works perfectly. You actually want tests to fail, knowing your functions is wrong (mutated functions).
+
+Looks very easy `mutator::mutate_package("path to package")`. has arguments to make it faster.
+
+## Quality control risk model for R package validation
+
+## Building the ultimate R AI assistant
+
+## R documentation as an AI tool
+
+## C++ code for quicker R
+
+# DAY 2: 08-07-2026
+## Reflections in geocomputation in R
+
+Spatial cross validation. Important!--> kfold nearest neighbour distance matching
+CAST package.
+
+## Modernizing R's web-mapping capabilities
+
+Various web mapping packages need copies via geojson files.
+--> higher performance: deck.gl, GeoArrow
+packages: geoarrowWidget, [deckglgeoarrow](https://r-spatial.github.io/deckglgeoarrow/articles/getting_started.html)
+
+## Areal interpolation methods
+
+Is a variable extensive or intensive? If you break a rock e.g., does the variable also split?
+
+- extensive: redistribute proportional to source areas
+- intensive: proportional to target area.
+
+check slides, interesting for B-Cubed? redistribution of data
+
+disaggregation package
+
+raster raster warping --> GBIF api for gridded biodiveristy data: use this instead of random point in circle approach?
+
+## Is here still where it was? Changes in terrestrial reference frames in R spatial packages
+
+Continental drift. Locations change over time. This is now being accepted and needs to be integrated.
+
+## An investigation of the R package ecosystem
+
+## The (aggregated) history of every CRAN package ever
